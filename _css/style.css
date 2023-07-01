@@ -231,6 +231,7 @@ ul#album-projetos li#foto02-1:hover{
     opacity: 0;
     transition: 0.6s;
     margin-top: 40px;
+    font-size: 1.5rem;
 }
 
 .descricao:hover{
