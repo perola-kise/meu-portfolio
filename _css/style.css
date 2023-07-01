@@ -371,8 +371,9 @@ section{
 }
 .descricao{
     background-size: 30% 30%;
-    font-size: 5px;
+    font-size: 10px;
     margin-top: 2px;
+    justify-content: center;
 }
 
 }
