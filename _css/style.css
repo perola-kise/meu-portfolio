@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Righteous';
+    src: url('/_fontes/Righteous-Regular.ttf');
+}
+
+*::after{
+    box-sizing: border-box;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body{
+    background-color: #0E2954;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0;
+    color: #2E8A99;
+    text-decoration: none;
+}
+
+div{
+     max-width: 50rem;
+     margin-inline: auto;
+     padding-inline: 1rem;
+          
+}
+
+#corpo-intro{
+    padding: 5% 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.img-icone{
+    width: 35%;
+    border-radius: 100px;
+}
+
+.titulo-portfolio{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 3rem;
+    margin-top: 20px;
+    padding-top: 0;
+}
+
+.titulo-projetos{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+section{
+    padding-block: rem;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 40vh;
+}
+
+section:nth-child(1){
+    background-color: #2E8A99;
+    color: #0E2954;
+}
+
+section:nth-child(3){
+    background-color: #2E8A99;
+    color: #0E2954;
+}
+
+.album-projetos{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+ul#album-projetos{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.album-project{
+    display: flex;
+}
+
+.album-projetos:nth-child(2){
+    transition-delay: 200ms;
+}
+.album-projetos:nth-child(3){
+    transition-delay: 400ms;
+}
+
+article{
+    padding: auto;
+}
+
+ul#album-projetos{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-projetos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    border-radius: 13px;
+    -webkit-transition: all .4s ease-in;
+}
+
+.html{
+        background: url("../__imagens/html_icon.png") no-repeat;
+        background-position: 50% 50%;
+        background-size: 200px 200px;
+        background-color: #ffffff;
+    }
+    
+.javascript{
+        background: url("../__imagens/javascript_icon.png") no-repeat;
+        background-position: 50% 50%;
+        background-size: 200px 200px;
+        background-color: #ffffff;
+    }
+    
+    
+    
+.sql{
+        background: url("../__imagens/sql_icon.png") no-repeat;
+        background-position: 50% 50%;       
+        background-size: 200px 200px;
+        background-color: #ffffff;
+    }
+
+.java{
+        background: url("../__imagens/java_icon.jpg") no-repeat;
+        background-position: 50% 50%;
+        background-size: 200px 200px;
+        background-color: #ffffff;
+    }
+
+
+ul#album-projetos li:hover{
+        -webkit-transform: scale(1.5);
+    }
+    
+ul#album-projetos li:hover span{
+        opacity: 1;
+    }
+
+.html:hover{
+    background: url(../__imagens/incompleto.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+.javascript:hover{
+    background: url(../__imagens/incompleto.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+.sql:hover{
+    background: url(../__imagens/incompleto.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+.java:hover{
+    background: url(../__imagens/incompleto.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-projetos li#foto01-1:hover{
+    background: none;
+    background-color: #2E8A99;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-projetos li#foto01-2:hover{
+    background: none;
+    background-color: #2E8A99;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-projetos li#foto01-3:hover{
+    background: none;
+    background-color: #2E8A99;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-projetos li#foto02-1:hover{
+    background: none;
+    background-color: #2E8A99;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+.descricao{
+    background-size: 50% 50%;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    transition: 0.6s;
+    margin-top: 40px;
+}
+
+.descricao:hover{
+    opacity: 1;
+}
+
+
+input{
+
+    border: 1px solid #0E2954;
+}
+fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#cFields{
+    width: 300px;
+    height: 150px;
+    
+}
+
+
+input[type="submit"]{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Righteous', sans-serif;
+    color: #0E2954;
+    border-radius: 13px;
+    border: 1px solid #0E2954;
+    cursor: pointer;
+    margin-top: 2px;
+    width: 300px;
+    
+}
+
+input[type="text"]{
+    height: 30px;
+}
+
+input[type="email"]{
+    height: 30px;
+}
+
+.pagina-midia{
+    display: flex;
+    gap: 50px;
+}
+
+.pagina-midia img{
+    height: 100px;
+    padding-bottom: 20px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#curriculo{
+    text-decoration: none;
+    color: #2E8A99;
+    background-color: #ffffff;
+    width: 300px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #0E2954;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.25s ease-in-out;
+
+}
