@@ -167,12 +167,29 @@ ul#album-projetos li:hover span{
         opacity: 1;
     }
 
-ul#album-projetos li:hover{
+.html:hover{
     background: url(../__imagens/incompleto.png) no-repeat;
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
 
+.javascript:hover{
+    background: url(../__imagens/incompleto.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+.sql:hover{
+    background: url(../__imagens/incompleto.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+.java:hover{
+    background: url(../__imagens/incompleto.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 ul#album-projetos li#foto01-1:hover{
     background: none;
     background-color: #2E8A99;
