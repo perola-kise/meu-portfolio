@@ -21,6 +21,10 @@ body{
     text-decoration: none;
 }
 
+.pagina-texto{
+    font-size: 1.5rem;
+}
+
 div{
      max-width: 50rem;
      margin-inline: auto;
@@ -37,14 +41,24 @@ div{
     gap: 40px;
 }
 
+.pagina-intro{
+    width: 50%;
+}
+
+.pagina-intro a{
+    display: flex;
+    justify-content: center;
+}
+
 .img-icone{
     width: 35%;
     border-radius: 100px;
 }
 
 .titulo-portfolio{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    color: #ffffff;
 }
 
 .titulo{
@@ -62,12 +76,8 @@ div{
 
 }
 
-.pagina-texto{
-    font-size: 1.5rem;
-}
-
 section{
-    padding-block: rem;
+    padding-block: 3rem;
     display: grid;
     place-items: center;
     align-content: center;
@@ -77,11 +87,13 @@ section{
 section:nth-child(1){
     background-color: #2E8A99;
     color: #0E2954;
+    
 }
 
 section:nth-child(3){
     background-color: #2E8A99;
     color: #0E2954;
+    
 }
 
 .album-projetos{
@@ -99,6 +111,7 @@ ul#album-projetos{
 
 .album-project{
     display: flex;
+    width: 80%;
 }
 
 .album-projetos:nth-child(2){
@@ -194,6 +207,7 @@ ul#album-projetos li:hover span{
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
+
 ul#album-projetos li#foto01-1:hover{
     background: none;
     background-color: #2E8A99;
@@ -287,8 +301,8 @@ input[type="email"]{
 
 .pagina-midia img{
     height: 100px;
-    padding-bottom: 20px;
-    padding-top: 0;
+    padding-bottom: 0;
+    padding-top: 20px;
     margin-top: 0;
 }
 
@@ -298,6 +312,7 @@ input[type="email"]{
     background-color: #ffffff;
     width: 300px;
     text-align: center;
+    justify-content: center;
     padding: 10px 20px;
     border: 1px solid #0E2954;
     border-radius: 5px;
@@ -313,8 +328,11 @@ input[type="email"]{
     ul#album-projetos li{
         width: 100px;
         height: 100px;
-        padding-left: 20px;
     }
+
+.pagina-projetos{
+    justify-content: center;
+}
 
 .html{
     background-position: 30% 30%;       
@@ -334,10 +352,9 @@ input[type="email"]{
     background-position: 30% 30%;       
     background-size: 100px 100px;
 }
-    ul#album-projetos li:hover{
+ul#album-projetos li:hover{
         background-size: 30% 30%;
     }
-
 
 .html:hover{
         background-position: 0px 0px;
@@ -369,11 +386,17 @@ section{
     margin-left: 5px;
     margin-right: 5px;
 }
+
 .descricao{
     background-size: 30% 30%;
-    font-size: 10px;
-    margin-top: 2px;
-    justify-content: center;
+
 }
 
+
+}
+
+@media screen and (max-width:800px){
+    .pagina-intro a#curriculo{
+        width: 150px;
+    }
 }
