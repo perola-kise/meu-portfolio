@@ -332,6 +332,13 @@ input[type="email"]{
     ul#album-projetos li:hover{
         background-size: 30% 30%;
     }
+.pagina-midia img{
+    height: 50px;
+}
+section{
+    justify-content: center;
+    min-height: 0;
+}
 
 
 }
