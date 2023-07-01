@@ -167,25 +167,7 @@ ul#album-projetos li:hover span{
         opacity: 1;
     }
 
-.html:hover{
-    background: url(../__imagens/incompleto.png) no-repeat;
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-.javascript:hover{
-    background: url(../__imagens/incompleto.png) no-repeat;
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-.sql:hover{
-    background: url(../__imagens/incompleto.png) no-repeat;
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-.java:hover{
+ul#album-projetos li:hover{
     background: url(../__imagens/incompleto.png) no-repeat;
     background-position: 0px 0px;
     background-size: 200px 200px;
@@ -306,4 +288,33 @@ input[type="email"]{
     #corpo-intro{
         flex-direction: column-reverse;
     }
+    ul#album-projetos li{
+        width: 100px;
+        height: 100px;
+        padding-left: 20px;
+    }
+
+.html{
+    background-position: 30% 30%;       
+    background-size: 100px 100px;
+}
+.javascript{
+    background-position: 30% 30%;       
+    background-size: 100px 100px;
+}
+
+.sql{
+    background-position: 30% 30%;       
+    background-size: 100px 100px;
+}
+
+.java{
+    background-position: 30% 30%;       
+    background-size: 100px 100px;
+}
+    ul#album-projetos li:hover{
+        background-size: 30% 30%;
+    }
+
+
 }
