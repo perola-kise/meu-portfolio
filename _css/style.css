@@ -364,6 +364,8 @@ section{
     margin-left: 5px;
     margin-right: 5px;
 }
-
+.descricao{
+    background-size: 30% 30%;
+}
 
 }
