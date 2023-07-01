@@ -336,6 +336,7 @@ input[type="email"]{
     height: 50px;
 }
 section{
+    padding-top: 50px;
     justify-content: center;
     min-height: 0;
 }
