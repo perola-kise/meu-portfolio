@@ -62,6 +62,10 @@ div{
 
 }
 
+.pagina-texto{
+    font-size: 1.5rem;
+}
+
 section{
     padding-block: rem;
     display: grid;
