@@ -52,14 +52,22 @@ div{
 
 .img-icone{
     width: 35%;
-    border-radius: 100px;
+    border-radius: 500px;
 }
 
-.titulo-portfolio{
-    font-size: 2rem;
+.cabecalho{
     text-align: center;
     color: #ffffff;
 }
+
+/* .cabecalho h1{
+
+}
+
+.titulo-portfolio{
+    text-align: center;
+    color: #ffffff;
+} */
 
 .titulo{
     font-size: 3rem;
@@ -74,6 +82,10 @@ div{
     margin-bottom: 0;
     padding-bottom: 0;
 
+}
+
+.habilidades{
+    list-style-type: square;
 }
 
 section{
@@ -135,8 +147,8 @@ ul#album-projetos{
 
 ul#album-projetos li{
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 10px;
     border: 5px solid #ffffff;
     background-color: #ffffff;
@@ -148,14 +160,14 @@ ul#album-projetos li{
 .html{
         background: url("../__imagens/html_icon.png") no-repeat;
         background-position: 50% 50%;
-        background-size: 200px 200px;
+        background-size: 100px 100px;
         background-color: #ffffff;
     }
     
 .javascript{
         background: url("../__imagens/javascript_icon.png") no-repeat;
         background-position: 50% 50%;
-        background-size: 200px 200px;
+        background-size: 100px 100px;
         background-color: #ffffff;
     }
     
@@ -164,14 +176,14 @@ ul#album-projetos li{
 .sql{
         background: url("../__imagens/sql_icon.png") no-repeat;
         background-position: 50% 50%;       
-        background-size: 200px 200px;
+        background-size: 100px 100px;
         background-color: #ffffff;
     }
 
 .java{
         background: url("../__imagens/java_icon.jpg") no-repeat;
         background-position: 50% 50%;
-        background-size: 200px 200px;
+        background-size: 100px 100px;
         background-color: #ffffff;
     }
 
@@ -187,53 +199,53 @@ ul#album-projetos li:hover span{
 .html:hover{
     background: url(../__imagens/incompleto.png) no-repeat;
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 100px 100px;
 }
 
 .javascript:hover{
     background: url(../__imagens/incompleto.png) no-repeat;
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 100px 100px;
 }
 
 .sql:hover{
     background: url(../__imagens/incompleto.png) no-repeat;
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 100px 100px;
 }
 
 .java:hover{
     background: url(../__imagens/incompleto.png) no-repeat;
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 100px 100px;
 }
 
 ul#album-projetos li#foto01-1:hover{
     background: none;
     background-color: #2E8A99;
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 100px 100px;
 }
 
 ul#album-projetos li#foto01-2:hover{
     background: none;
     background-color: #2E8A99;
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 100px 100px;
 }
 
 ul#album-projetos li#foto01-3:hover{
     background: none;
     background-color: #2E8A99;
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 100px 100px;
 }
 
 ul#album-projetos li#foto02-1:hover{
     background: none;
     background-color: #2E8A99;
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 100px 100px;
 }
 
 
@@ -244,8 +256,8 @@ ul#album-projetos li#foto02-1:hover{
     position: absolute;
     opacity: 0;
     transition: 0.6s;
-    margin-top: 40px;
-    font-size: 1.5rem;
+    margin-top: 10px;
+    font-size: .75rem;
 }
 
 .descricao:hover{
@@ -352,6 +364,7 @@ input[type="email"]{
     background-position: 30% 30%;       
     background-size: 100px 100px;
 }
+
 ul#album-projetos li:hover{
         background-size: 30% 30%;
     }
@@ -379,6 +392,7 @@ ul#album-projetos li:hover{
 .pagina-midia img{
     height: 50px;
 }
+
 section{
     padding-top: 50px;
     justify-content: center;
@@ -386,12 +400,6 @@ section{
     margin-left: 5px;
     margin-right: 5px;
 }
-
-.descricao{
-    background-size: 30% 30%;
-
-}
-
 
 }
 
